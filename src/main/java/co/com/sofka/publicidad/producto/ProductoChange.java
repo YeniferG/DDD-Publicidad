@@ -2,6 +2,8 @@ package co.com.sofka.publicidad.producto;
 
 import co.com.sofka.domain.generic.EventChange;
 import co.com.sofka.publicidad.producto.events.*;
+import co.com.sofka.publicidad.producto.values.DiseñoId;
+import co.com.sofka.publicidad.producto.values.Insumo;
 import co.com.sofka.publicidad.producto.values.ResponsableId;
 
 public class ProductoChange extends EventChange {
