@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ed8a3d7-569e-42f4-99ab-e339bfe08486" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/ClienteChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/Novedad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/commands/ActualizarDatosPersonales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/commands/ActualizarDetalleDeNovedad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/commands/ActualizarFechaRealizacionDeNovedad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/commands/CrearCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/commands/GenerarSolicitudDeNovedad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/events/ClienteCreado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/events/DatosPersonalesActualizados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/events/DetalleDeNovedadActualizado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/events/FechaRealizacionDeNovedadActualizada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/events/SolicitudDeNovedadGenerada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/values/Correo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/values/Detalle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/values/Direccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/values/FechaRealizacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/values/NovedadId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cliente/values/Telefono.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/Cotizacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/CotizacionChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/Estado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/OrdenCompra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/ActualizarFechaActualizacionDeEstado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/ActualizarFechaElaboracionDeOrdenCompra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/ActualizarValorTotalDeOrdenCompra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/CambiarFaseDeEstado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/CrearCotizacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/GenerarDetalleEspecificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/GenerarOrdenDeCompra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/commands/ModificarOrdenDeCompra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/enums/Fase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/CotizacionCreada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/DetalleEspecificacionAsignada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/FaseDeEstadocambiada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/FechaActualizacionDeEstadoActualizada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/FechaElaboracionDeOrdenCompraActualizada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/OrdenDeCompraGenerada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/OrdenDeCompraModificada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/events/ValorTotalDeOrdenCompraActualizado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/values/Especificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/values/EstadoId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/values/Fecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/values/OrdenCompraId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/cotizacion/values/Valor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/generico/ClienteId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/generico/CotizacionId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/generico/NombreCompleto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/generico/TipoDocumento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/Diseño.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/ProductoChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/Responsable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/commands/ActualizarDatosDeResponsable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/commands/ActualizarFechaEntrega.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/commands/AsignarResponsable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/commands/CambiarEstadoDeDiseño.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/commands/CrearProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/commands/SolicitarInsumosParaDiseño.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/enums/EstadoDiseño.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/events/DatosDeResponsableActualizados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/events/EstadoDeDiseñoActualizado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/events/FechaEntregaActualizada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/events/InsumosParaDiseñoSolicitados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/events/ProductoCreado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/events/ResponsableAsignado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/Antiguedad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/Cargo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/DiseñoId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/FechaEntrega.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/Insumo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/Nombre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/ProductoId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sofka/publicidad/producto/values/ResponsableId.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22b5vqhyAxuA1LQoKNG1ny7WAMS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pauta4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.com.sofka.publicidad.cliente.events" />
+      <recent name="co.com.sofka.publicidad.cotizacion.events" />
+      <recent name="co.com.sofka.publicidad.cliente" />
+      <recent name="co.com.sofka.publicidad.cotizacion" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ed8a3d7-569e-42f4-99ab-e339bfe08486" name="Changes" comment="" />
+      <created>1640093685637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640093685637</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
