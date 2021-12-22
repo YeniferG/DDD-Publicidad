@@ -14,6 +14,7 @@ import co.com.sofka.publicidad.generico.TipoDocumento;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Cliente extends AggregateEvent<ClienteId> {
 
@@ -77,4 +78,34 @@ public class Cliente extends AggregateEvent<ClienteId> {
         appendChange(new DetalleDeNovedadActualizado(novedadId, detalle)).apply();
     }
 
+    public Optional<Novedad> getNovedadPorId(NovedadId entityId){
+        return novedades
+                .stream()
+                .filter(novedad -> novedad.identity().equals(entityId))
+                .findFirst();
+    }
+
+    public TipoDocumento tipoDocumento() {
+        return tipoDocumento;
+    }
+
+    public NombreCompleto nombreCompleto() {
+        return nombreCompleto;
+    }
+
+    public Correo correo() {
+        return correo;
+    }
+
+    public Telefono telefono() {
+        return telefono;
+    }
+
+    public Direccion direccion() {
+        return direccion;
+    }
+
+    public List<Novedad> novedades() {
+        return novedades;
+    }
 }

@@ -65,4 +65,19 @@ public class Cotizacion extends AggregateEvent<CotizacionId> {
         appendChange(new FechaActualizacionDeEstadoActualizada(fechaActualizacion)).apply();
     }
 
+    public ClienteId clienteId() {
+        return clienteId;
+    }
+
+    public List<Especificacion> especificaciones() {
+        return especificaciones;
+    }
+
+    public OrdenCompra ordenCompra() {
+        return ordenCompra;
+    }
+
+    public Estado estado() {
+        return estado;
+    }
 }

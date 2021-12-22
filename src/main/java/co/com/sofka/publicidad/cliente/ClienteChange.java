@@ -1,9 +1,7 @@
 package co.com.sofka.publicidad.cliente;
 
 import co.com.sofka.domain.generic.EventChange;
-import co.com.sofka.publicidad.cliente.events.ClienteCreado;
-import co.com.sofka.publicidad.cliente.events.DatosPersonalesActualizados;
-import co.com.sofka.publicidad.cliente.events.SolicitudDeNovedadGenerada;
+import co.com.sofka.publicidad.cliente.events.*;
 
 public class ClienteChange extends EventChange {
 
@@ -29,14 +27,17 @@ public class ClienteChange extends EventChange {
             cliente.novedades.add(event.getNovedades());
         });
 
-        /*apply((FechaRealizacionDeNovedadActualizada event) -> {
-            cliente.novedades = event.getNovedadId();
-            cliente.novedades = event.getFechaRealizacion();
+        apply((FechaRealizacionDeNovedadActualizada event) -> {
+            var funcion = cliente.getNovedadPorId(event.getNovedadId())
+                    .orElseThrow(()-> new IllegalArgumentException("No se encuentra la novedad"));
+            funcion.actualizarFechaRealizacion(event.getFechaRealizacion());
         });
 
         apply((DetalleDeNovedadActualizado event) -> {
-            cliente.novedades.
-        });*/
+            var funcion = cliente.getNovedadPorId(event.getNovedadId())
+                    .orElseThrow(()-> new IllegalArgumentException("No se encuentra la novedad"));
+            funcion.actualizarDetalle(event.getDetalle());
+        });
 
     }
 }
