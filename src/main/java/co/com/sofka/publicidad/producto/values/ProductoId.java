@@ -1,4 +1,6 @@
 package co.com.sofka.publicidad.producto.values;
 
-public class ProductoId {
+import co.com.sofka.domain.generic.Identity;
+
+public class ProductoId extends Identity {
 }

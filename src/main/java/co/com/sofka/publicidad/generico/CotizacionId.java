@@ -1,4 +1,6 @@
 package co.com.sofka.publicidad.generico;
 
-public class CotizacionId {
+import co.com.sofka.domain.generic.Identity;
+
+public class CotizacionId extends Identity {
 }

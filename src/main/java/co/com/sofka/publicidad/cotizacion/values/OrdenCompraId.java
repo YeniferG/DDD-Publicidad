@@ -1,4 +1,6 @@
 package co.com.sofka.publicidad.cotizacion.values;
 
-public class OrdenCompraId {
+import co.com.sofka.domain.generic.Identity;
+
+public class OrdenCompraId extends Identity {
 }

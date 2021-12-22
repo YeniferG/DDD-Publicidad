@@ -1,4 +1,6 @@
 package co.com.sofka.publicidad.cotizacion.values;
 
-public class EstadoId {
+import co.com.sofka.domain.generic.Identity;
+
+public class EstadoId extends Identity {
 }

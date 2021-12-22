@@ -1,4 +1,11 @@
 package co.com.sofka.publicidad.cliente.values;
 
-public class Correo {
+import co.com.sofka.domain.generic.ValueObject;
+
+public class Correo implements ValueObject<String> {
+
+    public String value() {
+        return null;
+    }
+
 }
