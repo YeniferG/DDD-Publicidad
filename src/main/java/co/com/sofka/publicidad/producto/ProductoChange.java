@@ -6,6 +6,8 @@ import co.com.sofka.publicidad.producto.values.DiseñoId;
 import co.com.sofka.publicidad.producto.values.Insumo;
 import co.com.sofka.publicidad.producto.values.ResponsableId;
 
+import java.util.List;
+
 public class ProductoChange extends EventChange {
 
     public ProductoChange(Producto producto){
@@ -35,6 +37,10 @@ public class ProductoChange extends EventChange {
 
         apply((DatosDeResponsableActualizados event) -> {
             producto.responsable.actualizarDatos(event.getNombreCompleto(), event.getCargo(), event.getAntiguedad());
+        });
+
+        apply((InsumosParaDiseñoSolicitados event) -> {
+            producto.diseño.solicitarInsumos(event.getNombre(), event.getCantidad());
         });
     }
 

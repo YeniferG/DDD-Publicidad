@@ -13,7 +13,6 @@ import co.com.sofka.publicidad.generico.CotizacionId;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class Cotizacion extends AggregateEvent<CotizacionId> {
 

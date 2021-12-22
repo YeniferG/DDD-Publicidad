@@ -1,7 +1,7 @@
 package co.com.sofka.publicidad.producto.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.publicidad.cliente.values.TipoDocumento;
+import co.com.sofka.publicidad.generico.TipoDocumento;
 import co.com.sofka.publicidad.generico.NombreCompleto;
 import co.com.sofka.publicidad.producto.values.Antiguedad;
 import co.com.sofka.publicidad.producto.values.Cargo;

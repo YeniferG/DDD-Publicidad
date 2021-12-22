@@ -23,6 +23,10 @@ public class Diseño extends Entity<DiseñoId> {
         this.estadoDiseño = Objects.requireNonNull(estadoDiseño);
     }
 
+    public void solicitarInsumos(String nombre, Integer cantidad){
+        this.insumos.add(new Insumo(nombre, cantidad));
+    }
+
     public List<Insumo> insumos() {
         return insumos;
     }

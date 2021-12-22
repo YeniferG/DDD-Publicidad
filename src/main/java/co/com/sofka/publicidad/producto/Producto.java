@@ -2,7 +2,7 @@ package co.com.sofka.publicidad.producto;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.sofka.publicidad.cliente.values.TipoDocumento;
+import co.com.sofka.publicidad.generico.TipoDocumento;
 import co.com.sofka.publicidad.generico.CotizacionId;
 import co.com.sofka.publicidad.generico.NombreCompleto;
 import co.com.sofka.publicidad.producto.enums.EstadoDiseño;

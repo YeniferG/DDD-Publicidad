@@ -4,7 +4,20 @@ import co.com.sofka.domain.generic.ValueObject;
 
 public class Detalle implements ValueObject<String> {
 
-    public String value() {
-        return null;
+    private String detalle;
+
+    public Detalle(String detalle) {
+        this.detalle = detalle;
     }
+
+    public void generarDetalle(String detalle){
+        this.detalle = detalle;
+    }
+
+    @Override
+    public String value() {
+        return detalle;
+    }
+
+
 }
